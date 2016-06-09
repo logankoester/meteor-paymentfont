@@ -1,8 +1,9 @@
 Package.describe({
   name: 'ldk:paymentfont',
   version: '1.1.2',
-  summary: 'ldk:paymentfont package',
-  documentation: null
+  summary: 'Meteor wrapper package for PaymentFont',
+  documentation: 'README.md' ,
+  git: "https://github.com/logankoester/meteor-paymentfont.git"
 });
 
 Package.onUse(function(api) {
